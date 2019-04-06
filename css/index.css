@@ -33,10 +33,10 @@ body{
    margin-left: 10px
 }
 .postButtons{
-   display: flex;
-   height: 100%;
-   width: 100%;
-   justify-content: center;
+   position: absolute;
+   top: 30%;
+   left: 50%;
+   transform: translate(-55%, -55%);
    align-items: center;
 }
 textarea{
