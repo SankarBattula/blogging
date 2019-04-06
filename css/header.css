@@ -16,13 +16,14 @@ the title "ScriBBler" & the sub-heading below "ScriBBLer" */
 
 .blue-button{
     background-color: blue;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-right: 5px;
-    padding-left:5px;
-    color:white;
-    font-family: 'Ubuntu Condensed';
-    font-size: 14px;
+    width: 100px;
+    padding: 8px;
+    margin: 0 5px;
+    color : white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 90%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .title{
@@ -121,4 +122,10 @@ input {
 
 .bottom-banner{
     font-family: Abel;
+    text-align: center;
+}
+
+h1,
+h3 {
+    text-align: center;
 }

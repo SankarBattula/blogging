@@ -22,19 +22,18 @@ body{
    width: 100%;
 }
 .yellow-button{
-   background-color: yellow;
-   padding-top: 8px;
-   padding-bottom: 8px;
-   padding-right: 5px;
-   padding-left:5px;
-   color:black;
-   font-family: 'Ubuntu Condensed';
-   font-size: 14px;
-   margin-left: 10px
+   background: #ecd540;
+   width: 100px;
+   padding: 8px;
+   margin: 0 5px;
+   cursor: pointer;
+   font-weight: bold;
+   font-size: 90%;
+   font-family: Arial, Helvetica, sans-serif;
 }
 .postButtons{
    position: absolute;
-   top: 30%;
+   top:40%;
    left: 50%;
    transform: translate(-55%, -55%);
    align-items: center;
